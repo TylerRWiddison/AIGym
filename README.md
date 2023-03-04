@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+## Welcome to your AI personal trainer ##
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+** WARNING **
+This application does not know your medical history or medical needs.
+Do not use this to replace the expertise of a certified personal trainer or healthcare provider. 
+Always consult with your doctor before starting a workout routine.
+**********************************
 
-## Available Scripts
+## What does this app do? ##
+Using chatGPT 3.5 Turbo, this application provides a workout program that is catered to your goals, split preference, available equipment and your timeframe. After your program is generated for you, you can ask to replace workouts that you do not want. 
 
-In the project directory, you can run:
+Once logged in you will be able to save your program so you can reference it at anytime. 
 
-### `npm start`
+## Roadmap ##
+** Phase 1 **
+In this phase the pages will be created as mostly stand-in and some functionality. ability to talk to chatGPT and produce an 8 week workout program will be created.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+** Phase 2 **
+In this phase the ability to log in and save the users workout program.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+** Phase 3 **
+Phase 3 will implement another API and provide videos and illustrations for each exercise.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+** Phase 4 **
+Phase 4 introduces the ability to manually swap out exercises utilizing the API introduced in Phase 3.
